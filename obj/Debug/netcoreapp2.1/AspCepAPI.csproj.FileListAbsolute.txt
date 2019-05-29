@@ -1,0 +1,14 @@
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\bin\Debug\netcoreapp2.1\AspCepAPI.deps.json
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\bin\Debug\netcoreapp2.1\AspCepAPI.runtimeconfig.json
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\bin\Debug\netcoreapp2.1\AspCepAPI.runtimeconfig.dev.json
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\bin\Debug\netcoreapp2.1\AspCepAPI.dll
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\obj\Debug\netcoreapp2.1\AspCepAPI.csprojAssemblyReference.cache
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\obj\Debug\netcoreapp2.1\AspCepAPI.csproj.CoreCompileInputs.cache
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\obj\Debug\netcoreapp2.1\AspCepAPI.RazorAssemblyInfo.cache
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\obj\Debug\netcoreapp2.1\AspCepAPI.RazorAssemblyInfo.cs
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\obj\Debug\netcoreapp2.1\AspCepAPI.AssemblyInfoInputs.cache
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\obj\Debug\netcoreapp2.1\AspCepAPI.AssemblyInfo.cs
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\obj\Debug\netcoreapp2.1\AspCepAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\bin\Debug\netcoreapp2.1\AspCepAPI.pdb
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\obj\Debug\netcoreapp2.1\AspCepAPI.dll
+C:\Users\Arrow\source\repos\AspCepAPI\AspCepAPI\obj\Debug\netcoreapp2.1\AspCepAPI.pdb
