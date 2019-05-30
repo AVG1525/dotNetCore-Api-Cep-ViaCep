@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using AspCepAPI.Domain;
+using AspCepAPI.Interfaces;
+using AspCepAPI.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Configuration;
-using AspCepAPI.Domain;
-using Microsoft.EntityFrameworkCore;
-using AspCepAPI.Services;
-using AspCepAPI.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace AspCepAPI
 {
@@ -46,11 +43,13 @@ namespace AspCepAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-            }else
+            }
+            else
             {
                 app.UseHsts();
             }
 
+            //app.UseAuthentication();
             app.UseHttpsRedirection();
             app.UseMvc();
         }
