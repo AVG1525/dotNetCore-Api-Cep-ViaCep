@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AspCepAPI.Controllers
 {
+    [Authorize()]
     [Route("api/[Controller]")]
     [ApiController]
     public class CepController : ControllerBase

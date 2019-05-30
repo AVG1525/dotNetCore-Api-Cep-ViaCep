@@ -1,6 +1,7 @@
 ﻿using AspCepAPI.Domain;
 using AspCepAPI.Interfaces;
 using AspCepAPI.Services;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -30,6 +31,8 @@ namespace AspCepAPI
                 options.UseSqlite(connection)
                 );
 
+            services.AddAuthentication();
+
             services.AddTransient<IService, Service>();
             services.AddTransient<ICepService, CepService>();
             services.AddTransient<IApiCepService, ApiCepService>();
@@ -49,7 +52,7 @@ namespace AspCepAPI
                 app.UseHsts();
             }
 
-            //app.UseAuthentication();
+            app.UseAuthentication();
             app.UseHttpsRedirection();
             app.UseMvc();
         }

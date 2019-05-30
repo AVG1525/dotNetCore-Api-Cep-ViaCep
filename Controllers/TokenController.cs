@@ -23,19 +23,12 @@ namespace AspCepAPI.Controllers
         }
 
         [AllowAnonymous]
-        [HttpPost]
-        public IActionResult RequestToken([FromHeader] CepModel request)
+        [HttpGet]
+        public string RequestToken([FromHeader] CepModel request)
         {
-            //var TokenRequest = Request.Headers["SecurityKey"];
-            if (request.cep == "743ECFF0")
-            {
-                var token = "743ECFF0";
+            var token = HttpContext.Request.Headers["Key"];
 
-                return Ok(new {
-                    token =(token)
-                });
-            }
-            return BadRequest();
+            return token;
         }
     }
 }
