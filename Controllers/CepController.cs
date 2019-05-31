@@ -6,6 +6,7 @@ namespace AspCepAPI.Controllers
 {
     [Route("api/[Controller]")]
     [ApiController]
+    [Authorize()]
     public class CepController : ControllerBase
     {
         private readonly IService _service;
